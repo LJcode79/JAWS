@@ -120,7 +120,6 @@ class User{
         }
     }
     generateRandomWorkout(muscleGroupChoice, equipmentList){
-        // const workoutsWithMuscle = wo.getWorkoutDatabase().filter(workout => workout.muscleGroup == muscleGroup && workout.equipment == )
         this.muscleGroupChoice = muscleGroupChoice;
         this.workoutDB = workoutDB.getWorkoutDatabase();
         this.equipmentDB = equipmentDB.getEquipmentDatabase();
